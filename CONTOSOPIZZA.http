@@ -1,0 +1,16 @@
+@CONTOSOPIZZA_HostAddress = http://localhost:5138
+
+PUT {{CONTOSOPIZZA_HostAddress}}/pizza/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "test"
+}
+###
+
+GET {{CONTOSOPIZZA_HostAddress}}/pizza/
+Accept: application/json
+
+###
